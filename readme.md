@@ -5,9 +5,9 @@ https://video.unext.jp を開くだけの electron アプリ
 一度ログインすると、再起動しても最初から unext へログインしたままになります。
 
 # 使い方
-以下からダウンロードして展開し、 exe を実行します
+以下から zip をダウンロードして展開し、 exe を実行します
 
-```リンク準備中```
+```https://github.com/sakkuntyo/electron-unext/releases```
 
 # 概要
 - nodejs 18.15 で動作確認。
