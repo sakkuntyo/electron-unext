@@ -5,9 +5,9 @@ const os = require("os");
 
 app.whenReady().then(() => {
   // Chromeのパス（環境に合わせて調整）
-  const chrome = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe";
+  const chrome = "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe";
 
-  const profileDir = path.join(os.homedir(), "chrome-profile-unext");
+  const profileDir = path.join(os.homedir(), "edge-profile-electron-unext");
   const url = "https://video.unext.jp/";
 
   spawn(chrome, [
